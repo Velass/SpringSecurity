@@ -1,0 +1,37 @@
+# .gitignore pour un projet Spring Boot (dans le dossier "back") et Angular (dans le dossier "front")
+
+# Les fichiers de configuration spécifiques à l'IDE (par exemple, IntelliJ, Eclipse, Visual Studio Code)
+.idea/
+.vscode/
+*.iml
+
+# Les fichiers de configuration spécifiques à Maven et Gradle
+back/target/
+back/build/
+!back/target/
+!**/target/
+*.class
+back/.gradle/
+back/build/
+back/mvnw
+back/mvnw.cmd
+
+# Les fichiers générés par Angular CLI
+front/node_modules/
+front/dist/
+front/tmp/
+front/*.tmp
+front/*.d.ts
+front/*.map
+
+# Les fichiers de configuration spécifiques à npm
+front/npm-debug.log*
+
+# Les fichiers de configuration spécifiques à Spring Boot
+back/log/
+back/*.log
+
+# Les fichiers spécifiques à Angular
+front/.angular-cli.json
+front/.angular-cli/
+front/*.ng-hmr
